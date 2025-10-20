@@ -4,12 +4,12 @@ on:
   workflow_dispatch:
     inputs:
       ipa_url:
-        description: "URL to the decrypted IPA file"
+        description: "https://www.dropbox.com/scl/fi/x6q7ghmsmhzzvkxy3o5cv/com.spotify.client-9.0.88-Decrypted.ipa?rlkey=gsfedts0sz8i18pk4dbocy8cq&st=aa0swtnb&dl=0"
         default: ""
         required: true
         type: string
       tweak_url:
-        description: "URL to the EeveeSpotify tweak file"
+        description: "sha256:9eaef4843368b558d70a5d242463f99496aaa55f8651bbaffdaeea90a876eb2c"
         default: ""
         required: true
         type: string
